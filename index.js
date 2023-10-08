@@ -2,6 +2,7 @@
 // SOLUTION
 {
   let paragraph = "I am a paragraph";
+
   const arrayPara = paragraph.split(" ").map((word) => {
     return word.split("").reverse().join("");
   });
@@ -9,4 +10,13 @@
   console.log(resultedPara);
 }
 
-// 2.
+// 2. Check if something is Array or not | since typeOf [] implies object
+// SOLUTION
+{
+  let something = [];
+
+  const answer = Array.isArray(something);
+  console.log(answer);
+}
+
+// 3.
