@@ -19,4 +19,9 @@
   console.log(answer);
 }
 
-// 3.
+// 3. Empty an array | without reassinging and looping pop through
+// SOLUTION
+{
+  const array = [5, 7, 2];
+  array.length = 0;
+}
