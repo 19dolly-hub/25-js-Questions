@@ -38,3 +38,15 @@
   }
   console.log(isInteger);
 }
+
+// 5. Make a duplicate function so that duplicate([1,2,3]) returns [1,2,3,1,2,3]
+// SOLUTION
+{
+  let arr = [1, 2, 3];
+  function duplicate(array) {
+    return array.concat(array);
+  }
+  console.log(duplicate(arr));
+}
+
+// 6. 

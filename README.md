@@ -12,3 +12,6 @@
 
 * Ques.4 | Check if a number is integer | without using Number.isInteger()
   #### [SOLUTION](/index.js#L34-L39)
+
+* Ques.5 | Make a duplicate function so that duplicate([1,2,3]) returns [1,2,3,1,2,3]
+  #### [SOLUTION](/index.js#L45-L49)
