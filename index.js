@@ -23,5 +23,18 @@
 // SOLUTION
 {
   const array = [5, 7, 2];
+    console.log(array);
   array.length = 0;
+    console.log(array);
+}
+
+// 4. Check if a number is integer | without using Number.isInteger()
+// SOLUTION
+{
+  let num = 7.1;
+  let isInteger = false;
+  if(num % 1 === 0) {
+    isInteger = true;
+  }
+  console.log(isInteger);
 }
