@@ -49,4 +49,27 @@
   console.log(duplicate(arr));
 }
 
-// 6. 
+// 6. Make a reverseDigits function that reverses the digits of a number
+// SOLUTION
+// approach 1 
+{
+  function reverseDigits(number) {
+    return Number(number.toString().split("").reverse().join(""));
+  }
+  console.log(reverseDigits(1234));
+}
+// approach 2
+{
+  function reverseDigits(number) {
+    let revHolder = 0;
+    while(number > 0) {
+      let lastDig = number%10;
+      revHolder = revHolder*10 + lastDig;
+      number = Math.floor(number/10);
+    }
+    return revHolder;
+  }
+  console.log(reverseDigits(12345));
+}
+
+// 7. 

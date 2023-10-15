@@ -15,3 +15,6 @@
 
 * Ques.5 | Make a duplicate function so that duplicate([1,2,3]) returns [1,2,3,1,2,3]
   #### [SOLUTION](/index.js#L45-L49)
+
+* Ques.6 | Make a reverseDigits function that reverses the digits of a number
+  #### [SOLUTION](/index.js#L54-L73)
