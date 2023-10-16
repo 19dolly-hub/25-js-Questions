@@ -82,4 +82,13 @@
   console.log(isPalindrome("loot"));
 }
 
-// 8. 
+// 8. Write a function that return the passed string rearranged in alphabetical order
+// SOLUTION
+{
+  function arrangeAlpha(string) {
+    return string.split("").sort().join("");
+  }
+  console.log(arrangeAlpha("xyzabc"));
+}
+
+// 9.

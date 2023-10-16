@@ -21,3 +21,6 @@
 
 * Ques.7 | Check if a string is a palindrome or not
   #### [SOLUTION](/index.js#L78-L82)
+
+* Ques.8 | Write a function that return the passed string rearranged in alphabetical order
+  #### [SOLUTION](/index.js#L88-L91)
