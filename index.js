@@ -72,4 +72,14 @@
   console.log(reverseDigits(12345));
 }
 
-// 7. 
+// 7. Check if a string is a palindrome or not
+// SOLUTION
+{
+  function isPalindrome(string) {
+    return string === string.split("").reverse().join("");
+  }
+  console.log(isPalindrome("toot"));
+  console.log(isPalindrome("loot"));
+}
+
+// 8. 

@@ -18,3 +18,6 @@
 
 * Ques.6 | Make a reverseDigits function that reverses the digits of a number
   #### [SOLUTION](/index.js#L54-L73)
+
+* Ques.7 | Check if a string is a palindrome or not
+  #### [SOLUTION](/index.js#L78-L82)
