@@ -24,3 +24,9 @@
 
 * Ques.8 | Write a function that return the passed string rearranged in alphabetical order
   #### [SOLUTION](/index.js#L88-L91)
+
+* Ques.9.0 | Make a function that takes a string and transforms the first letter to uppercase (warm-up ques for Q.9)
+  #### [SOLUTION](/index.js#L97-L102)
+
+* Ques.9 | Make a function that takes a sentence(string) and transforms the first letter of each word to uppercase
+  #### [SOLUTION](/index.js#L108-L115)

@@ -91,4 +91,26 @@
   console.log(arrangeAlpha("xyzabc"));
 }
 
-// 9.
+// 9.0 Make a function that takes a string and transforms the first letter to uppercase (warm-up ques for Q.9)
+// SOLUTION
+{
+  function capitalize(string) {
+    const small = string[0];
+    const capital = string[0].toUpperCase();
+    return string.replace(small, capital);
+  }
+  console.log(capitalize("many"));
+}
+
+// 9. Make a function that takes a sentence(string) and transforms the first letter of each word to uppercase
+// SOLUTION
+{
+  function capitalize(sentence) {
+    const words = sentence.split(" ");
+    const capitals = words.map(word => word.replace(word[0], word[0].toUpperCase()));
+    return capitals.join(" ");
+  }
+  console.log(capitalize("this is a capitalized sentence"));
+}
+
+// 10.
