@@ -203,4 +203,7 @@
   console.log(getType(8));
   console.log(getType(""));
   console.log(getType(o));
+  console.log(getType(()=>{}));
 }
+
+// 16.

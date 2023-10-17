@@ -32,8 +32,8 @@
   #### [SOLUTION](/index.js#L108-L115)
 
 * Ques. 10 | Write a function which returns the type of the argument passed [object, boolean, function, number, string, undefined]
-  #### [SOLUTION](/index.js#L197-L205)
-  
+  #### [SOLUTION](/index.js#L197-L206)
+
 * Ques.11 | Write a function which returns number of occurences of each letter in string
   #### [SOLUTION](/index.js#L119-L126)
 
