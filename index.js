@@ -190,3 +190,17 @@
   }
   console.log(clone([1, 4, "uu"]));
 }
+
+// 10. Write a function which returns the type of the argument passed [object, boolean, function, number, string, undefined]
+// SOLUTION
+{
+  function getType(arg) {
+    return typeof arg;
+  }
+  let o;
+  console.log(getType([]));
+  console.log(getType(false));
+  console.log(getType(8));
+  console.log(getType(""));
+  console.log(getType(o));
+}
