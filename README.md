@@ -30,3 +30,6 @@
 
 * Ques.9 | Make a function that takes a sentence(string) and transforms the first letter of each word to uppercase
   #### [SOLUTION](/index.js#L108-L115)
+
+* Ques.11 | Write a function which returns number of occurences of each letter in string
+  #### [SOLUTION](/index.js#L119-L126)

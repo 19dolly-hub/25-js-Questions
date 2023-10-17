@@ -113,4 +113,17 @@
   console.log(capitalize("this is a capitalized sentence"));
 }
 
-// 10.
+// 11. Write a function which returns number of occurences of each letter in string
+// SOLUTION
+{
+  function findOcc(string="hello world") {
+    let resultedObj = {};
+    string.split("").forEach((letter) => {
+      if(resultedObj.hasOwnProperty(letter) === false) resultedObj[letter] = 1
+      else resultedObj[letter]++
+    })
+    return resultedObj;
+  }
+}
+
+// 12.
