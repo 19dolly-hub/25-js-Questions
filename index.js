@@ -126,4 +126,67 @@
   }
 }
 
-// 12.
+// 12. Loop an array and add all numbers of it
+// SOLUTION
+{
+  let array = [2, 4, 6, 8];
+  let total = 0;
+  // for(let i=0; i<array.length; i++) {
+  //   total += array[i];
+  // }
+  array.forEach(value => total += value);
+  console.log(total);
+}
+
+// 13. In an array of numbers and strings, only add those members which are not strings
+// SOLUTION
+{
+  let array = [1, 3, "2", "4", 8];
+  let sum = 0;
+  array.forEach(value => {
+    if(typeof value === "number") sum+= value
+  });
+  console.log(sum);
+}
+
+// 14. Loop an array of objects and remove all objects which don't have gender's value male
+// SOLUTION
+{
+  let objArr = [
+    {name: "kailey", gender: "f"},
+    {name: "sholey", gender: "m"},
+    {name: "tillu", gender: "m"},
+    {name: "jooley", gender: "f"}
+  ];
+
+  let newArr = objArr.filter((obj) => {
+    return obj.gender === "m";
+  });
+  console.log(newArr);
+
+  objArr.forEach((obj, i) => {
+    if(obj.gender !== "m") objArr.splice(i, 1)
+  });
+  console.log(objArr);
+}
+
+// 15. Write a function to clone an array
+// SOLUTION
+{
+  function clone(array) {
+    return [...array];
+
+    /* 
+    let newArr = []
+    array.forEach((value) => {
+        newArr.push(value);
+    });
+    return newArr;
+    */
+
+    /*
+    return array.map(value => value);
+     */
+  }
+  console.log(clone([1, 4, "uu"]));
+}

@@ -33,3 +33,15 @@
 
 * Ques.11 | Write a function which returns number of occurences of each letter in string
   #### [SOLUTION](/index.js#L119-L126)
+
+* Ques.12 | Loop an array and add all numbers of it
+  #### [SOLUTION](/index.js#L132-L138)
+
+* Ques.13 | In an array of numbers and strings, only add those members which are not strings
+  #### [SOLUTION](/index.js#L144-L149)
+
+* Ques.14 | Loop an array of objects and remove all objects which don't have gender's value male
+  #### [SOLUTION](/index.js#L155-L170)
+
+* Ques.15 | Write a function to clone an array
+  #### [SOLUTION](/index.js#L176-L191)
