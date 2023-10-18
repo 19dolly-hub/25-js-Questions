@@ -49,3 +49,8 @@
 * Ques.15 | Write a function to clone an array
   #### [SOLUTION](/index.js#L176-L191)
 
+* Ques.16 | Write a function which prints first n elements of an array
+  #### [SOLUTION](/index.js#L212-L223)
+
+* Ques.17 | Write a function which prints last n elements of an array
+  #### [SOLUTION](/index.js#L229-L250)

@@ -206,4 +206,46 @@
   console.log(getType(()=>{}));
 }
 
-// 16.
+// 16. Write a function which prints first n elements of an array
+// SOLUTION
+{
+  function returnElements(array, n=1) {
+    if (n<=array.length) {
+      for(let i=0; i<n; i++) {
+        console.log(array[i]);
+      }
+    }
+    else {
+      console.log(`only ${array.length} elements are in the array!`);
+    }
+  }
+  returnElements([1, 2, 3, 4, 5]);
+  returnElements([1, 2, 3, 4, 5], 2);
+}
+
+// 17. Write a function which prints last n elements of an array
+// SOLUTION
+{
+  // function returnElements(array, n=1) {
+  //   if(n<=array.length) {
+  //     for(let i = array.length-1; i>=array.length-n; i--) {
+  //       console.log(array[i]);
+  //     }
+  //   }
+  //   else {
+  //     console.log(`only ${array.length} elements are in the array!`);
+  //   }  
+  // }
+  function returnElements(array, n=1) {
+    if (n<=array.length) {
+      for(let i=0; i<n; i++) {
+        console.log(array[array.length -1 -i]);
+      }
+    }
+    else {
+      console.log(`only ${array.length} elements are in the array!`);
+    }
+  }
+  returnElements([1, 2, 3, 4, 5]);
+  returnElements([1, 2, 3, 4, 5], 2);
+}
